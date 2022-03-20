@@ -1,0 +1,67 @@
+body {
+    font-family: 'Smooch Sans', sans-serif;
+    background-color: #333333;
+    background-image: url("img/bg.png")
+}
+
+img {
+    outline: #f4f4f4 solid 1px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.box {
+    height: 338px;
+    width: 580px;
+    background-color: #c9c9c9;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    align-content: center;
+}
+
+.secondrow{
+    position: absolute;
+    top: 55%;
+    left: 36%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    align-content: center;
+}
+
+.signature{
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 95%;
+    left: 90%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    align-content: center;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+a:link {
+    text-decoration: none;
+    color: #333333;
+    }
+a:hover {
+    font-size: 27px;
+}
+p {
+    font-size: 25px;
+    color: #333333;
+}
